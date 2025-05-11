@@ -6,6 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* Make the app container stretch full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content area grows to fill space */
+.content {
+  flex: 1;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

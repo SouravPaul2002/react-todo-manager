@@ -1,0 +1,81 @@
+.edit-todo-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background-color: #fefefe;
+  box-shadow: 0 4px 12px rgb(184, 180, 180);
+  border-radius: 10px;
+}
+
+.edit-todo-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.edit-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edit-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+.edit-input,
+.edit-textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.edit-input:focus,
+.edit-textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.edit-btn-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.edit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn.primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.edit-btn.primary:hover {
+  background-color: #0056b3;
+}
+
+.edit-btn.secondary {
+  background-color: #6c757d;
+  color: #fff;
+  text-decoration: none;
+}
+
+.edit-btn.secondary:hover {
+  background-color: #545b62;
+  text-decoration: none;
+}
