@@ -1,3 +1,18 @@
+React Todo Manager is a simple and intuitive task management application built with React. It allows users to:
+
+  1.✅ Add new todos
+
+  2.✏️ Edit existing tasks
+
+  3.❌ Delete tasks
+
+  4.📂 View todos persistently using localStorage
+
+  5.📱 Responsive design with mobile-friendly navigation
+
+This project is perfect for beginners to understand the basics of React Hooks, React Router, localStorage, and component-based design.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
